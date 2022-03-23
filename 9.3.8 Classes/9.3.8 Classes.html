@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+      span {
+        background-color: teal;
+      }
+      /* id 대신 사용 : class */
+      /* class는 고유의 값이 아닌 여러 군데 사용하고 싶을 때 사용 */
+      /* class 명은 여러개 써줄 수 있음 */
+
+      /* #tomato1{
+          background-color: tomato;
+      }
+      #tomato2{
+          background-color: tomato;
+      }
+      #tomato3{
+          background-color: tomato;
+      } */
+      /* #tomato1 #tomato2 #tomato3 {
+        background-color: tomato;
+      } */
+      .btn {
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      .teal {
+        background-color: teal;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+      .tomato {
+        background-color: tomato;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="btn teal">hello</span>
+    <span class="btn tomato hello honey potato">hello</span>
+    <span class="btn teal">hello</span>
+    <span class="btn tomato">hello</span>
+    <span class="btn teal">hello</span>
+    <span class="btn tomato">hello</span>
+    <span class="btn teal">hello</span>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 1000vh;
+        margin: 50px;
+      }
+      span {
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        color: teal;
+      }
+      /* 바로 뒤에 나오지 않을 때 사용 */
+      p ~ span {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        ipsam natus, enim facere architecto perspiciatis omnis quis modi iusto
+        quasi doloremque perferendis mollitia optio. Eius modi ab quaerat facere
+        impedit.<span>inside</span>
+      </p>
+      <address>hi</address>
+      <span>hello</span>
+    </div>
+  </body>
+</html>
